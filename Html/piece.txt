@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="piece.css">
+<title>One Piece</title>
+</head>
+<body>
+<div class="header">
+<p>One Piece</p>
+</div>
+<div class="topnav">
+  <a>pre-timeskip</a>
+  <a>post-timeskip</a>
+  <a>crew</a>
+</div>
+<div id="a">
+<h1>Whole Cake</h1>
+<h2>Best arc moments</h2>
+  <ul>
+    <li>Sanji's Past</li>  
+    <li>Brook gets the Poneglyph</li>
+    <li>Luffy defeats two Yonko Commanders</li>
+    <li>Jimbei leaves big mom crew</li>
+    <li>Luffy mets Bege</li>
+  </ul>
+<p>This is where Luffy's bounty becomes 1.5 billion.</br>Here Luffy defeats Katakuri.</p>
+<img src="Red Roc (4).png" height="300" width="450">
+<hr>
+</div>
+<div id="b">
+<h1>Wano</h1>
+<p>Wano is a good arc.Luffy unlocks gear 5.</p>
+<img src="Straw hat.jpg" height="300" width="450">
+</div>
+<hr>
+<table>
+   <thead>
+      <th>Name</th>
+      <th>Bounty</th>
+      <th>Devil Fruit</th>
+   </thead>
+<tr>
+   <td>Luffy</td>
+   <td>3 Billion</td>
+   <td>Gomu Gomu no mi</td>
+</tr>
+<tr>
+   <td>Robin</td>
+   <td>930 Million</td>
+   <td>Hana Hana no mi</td>
+</tr>
+<tr>
+   <td>Chopper</td>
+   <td>1000</td>
+   <td>Human Human Fruit</td>
+</tr>
+</table>
+<h2>Which is your fav arc</h2>
+<form>
+  <label for ="arc-wano">Wano</label>
+  <input type="radio" name=choice value="choice-1">
+  <label for ="arc-Whole cake">Whole cake</label>
+  <input type="radio" name=choice value="choice-2">
+
+  <label for ="char">Fav Charecter</label>
+  <select name ="char">
+  <option> Zoro </option>
+  <option> Sanji </option>
+  <option> Chopper </option>
+  <option> Robin </option>
+  <option> Nami </option>
+</select>
+</form>
+<hr>
+<img id="ll" src="lelouch.jpg">
+
+</body>
+</html>
